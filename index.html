@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+<body>
+    <div id="start-screen">
+        <h1>Bienvenido Trivia Peliculas</h1>
+        <button id="play-btn">Jugar Trivia</button>
+        <button id="edit-btn">Editar Trivia</button>
+    </div>
+
+    <div id="quiz-screen" style = "display:none;">
+        <div class="quiz-container">
+            <div id="quiz"></div>   <!--contenedor vacio. El contenido lo vamos a crear con JavaScripts usando DOM-->
+        </div>
+
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+
+        <div id="results"></div>
+        <div id="restart"></div>
+    </div>
+
+    <div id="edit-screen" style = "display:none;">
+        <h2>Editar Preguntas</h2>
+        <div id="question-editor"></div>
+        <button id="add-question">Agregar Pregunta</button>
+        <button id="save-question">Guardar Cambios</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html> 

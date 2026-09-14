@@ -1,0 +1,91 @@
+
+body{
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f7f5;
+}
+h1{
+  font-weight: 300;
+  margin: 20px;
+  padding: 10px;
+  font-size: 80px;
+  background-color: #279;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: rgb(75, 152, 182);
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+#edit-screen h2{
+  background-color: #279;
+  text-align: center;
+  color:#fff;
+  margin-bottom: 10px;
+  font-size: 20px;;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#question-editor div{
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 5px solid #279;
+  border-radius: 10px;
+
+}
+
+#question-editor input[type="text"] {
+
+  width: 200px;
+  padding: 8px;
+  border-radius: 15px;
+  border: 2px dotted #000;
+}
+
+#edit-screen button{
+  margin-top: 30px;
+}
